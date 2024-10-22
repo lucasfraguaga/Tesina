@@ -1,0 +1,88 @@
+vendedor
+
+dirección
+descripción de zona
+conectividad
+cultivo a tratar
+	muchos
+disponibilidad de agua
+	canillas
+	almacenadores
+	otro
+descripción de agua
+distancia a cubrir
+cantidad de sensoser
+mediciones
+	humedad tierra
+	humedad ambiente
+	ph tierra
+	tiempo de luz solar
+	otros
+plano
+
+
+analista de campo
+
+zona(estado ok o complicada)
+conectividad(estado ok o complicada)
+disponibilidad de agua(viable o no)
+estado(viable o no)
+mantenimiento(viable o no)
+comentarios
+
+analista de equipo
+
+equipos(necesarios)
+motores(caso de que no halla canillas)
+controladores de canillas(caso de que haya canillas)
+humedad tierra
+humedad ambiente
+ph tierra
+tiempo de luz solar
+otros
+tubos
+mangueras
+
+vendedor 
+
+factura
+	materiales
+	mano de obra
+		chico
+		mediano
+		grande
+
+análisis de equipo
+
+valida stock y fabrica
+tabla de stock
+
+instalador
+
+fecha de instalación
+estado
+
+vendedor 
+
+factura completa
+
+administrador
+
+creación de usuario
+
+
+
+
+
+stock
+
+genera pedido de compra
+tabla de materiales a comprar
+estado(entregado o no)
+cargado
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+C:\Users\lucas\Desktop\campo\SistemaRiego\Seguridad\bin\Debug\Seguridad.dll
+C:\Users\lucas\Desktop\campo\SistemaRiego\Seguridad\bin\Debug\Seguridad.pdb
+C:\Users\lucas\Desktop\campo\SistemaRiego\Seguridad\obj\Debug\Seguridad.csproj.AssemblyReference.cache
+C:\Users\lucas\Desktop\campo\SistemaRiego\Seguridad\obj\Debug\Seguridad.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\campo\SistemaRiego\Seguridad\obj\Debug\Seguridad.dll
+C:\Users\lucas\Desktop\campo\SistemaRiego\Seguridad\obj\Debug\Seguridad.pdb
+C:\Users\lucas\Desktop\campo\SistemaRiego\Seguridad\bin\Debug\BCrypt.Net.dll
+C:\Users\lucas\Desktop\campo\SistemaRiego\Seguridad\bin\Debug\BCrypt.Net.xml
+C:\Users\lucas\Desktop\campo\SistemaRiego\Seguridad\obj\Debug\Seguridad.csproj.Up2Date

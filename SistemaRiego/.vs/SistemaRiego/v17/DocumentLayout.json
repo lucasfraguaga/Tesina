@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|c:\\users\\lucas\\desktop\\campo\\sistemariego\\ui\\auditoriausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\auditoriausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\ui\\auditoriausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\auditoriausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF40D6-7A57-495C-A0B2-A83909D35F03}|DAL\\DAL.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\dal\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF40D6-7A57-495C-A0B2-A83909D35F03}|DAL\\DAL.csproj|solutionrelative:dal\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2692D871-BCC9-4704-9353-48C8F8E96A63}|BLL\\BLL.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\bll\\bllgestorconexiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2692D871-BCC9-4704-9353-48C8F8E96A63}|BLL\\BLL.csproj|solutionrelative:bll\\bllgestorconexiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\ui\\modificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\modificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\ui\\modificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\modificarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3AED03-A715-4E9F-A24C-EE0E113AE093}|BE\\BE.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\be\\usuariodisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B3AED03-A715-4E9F-A24C-EE0E113AE093}|BE\\BE.csproj|solutionrelative:be\\usuariodisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\ui\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\ui\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\ui\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3AED03-A715-4E9F-A24C-EE0E113AE093}|BE\\BE.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\be\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B3AED03-A715-4E9F-A24C-EE0E113AE093}|BE\\BE.csproj|solutionrelative:be\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\ui\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}|UI\\UI.csproj|solutionrelative:ui\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2692D871-BCC9-4704-9353-48C8F8E96A63}|BLL\\BLL.csproj|C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\bll\\bllmanejadordedigitoverificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2692D871-BCC9-4704-9353-48C8F8E96A63}|BLL\\BLL.csproj|solutionrelative:bll\\bllmanejadordedigitoverificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuditoriaUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\AuditoriaUsuario.cs",
+              "RelativeDocumentMoniker": "UI\\AuditoriaUsuario.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\AuditoriaUsuario.cs",
+              "RelativeToolTip": "UI\\AuditoriaUsuario.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAvwF4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:38:15.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuditoriaUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\AuditoriaUsuario.cs",
+              "RelativeDocumentMoniker": "UI\\AuditoriaUsuario.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\AuditoriaUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\AuditoriaUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T01:59:00.183Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModificarUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\ModificarUsuario.cs",
+              "RelativeDocumentMoniker": "UI\\ModificarUsuario.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\ModificarUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\ModificarUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:01:20.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModificarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\ModificarUsuario.cs",
+              "RelativeDocumentMoniker": "UI\\ModificarUsuario.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\ModificarUsuario.cs",
+              "RelativeToolTip": "UI\\ModificarUsuario.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAvwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:01:43.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\DAL\\Conexion.cs",
+              "RelativeDocumentMoniker": "DAL\\Conexion.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\DAL\\Conexion.cs",
+              "RelativeToolTip": "DAL\\Conexion.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAIA8wCYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T00:54:57.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BLLGestorConexiones.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\BLL\\BLLGestorConexiones.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLGestorConexiones.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\BLL\\BLLGestorConexiones.cs",
+              "RelativeToolTip": "BLL\\BLLGestorConexiones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:34:52.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioDisplay.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\BE\\UsuarioDisplay.cs",
+              "RelativeDocumentMoniker": "BE\\UsuarioDisplay.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\BE\\UsuarioDisplay.cs",
+              "RelativeToolTip": "BE\\UsuarioDisplay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:44:13.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:50:55.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Form1.cs",
+              "RelativeToolTip": "UI\\Form1.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAEwCUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:51:22.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Admin.cs",
+              "RelativeDocumentMoniker": "UI\\Admin.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Admin.cs",
+              "RelativeToolTip": "UI\\Admin.cs",
+              "ViewState": "AQIAAMIAAAAAAAAAAIA8wN0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T00:43:34.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Admin.cs",
+              "RelativeDocumentMoniker": "UI\\Admin.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Admin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Admin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T00:43:13.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Bitacora.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Bitacora.cs",
+              "RelativeDocumentMoniker": "UI\\Bitacora.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Bitacora.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Bitacora.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:57:50.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Bitacora.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Bitacora.cs",
+              "RelativeDocumentMoniker": "UI\\Bitacora.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\UI\\Bitacora.cs",
+              "RelativeToolTip": "UI\\Bitacora.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:59:29.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BLLManejadorDeDigitoVerificador.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\BLL\\BLLManejadorDeDigitoVerificador.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLManejadorDeDigitoVerificador.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\BLL\\BLLManejadorDeDigitoVerificador.cs",
+              "RelativeToolTip": "BLL\\BLLManejadorDeDigitoVerificador.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAmwDEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:43:17.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Bitacora.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\BE\\Bitacora.cs",
+              "RelativeDocumentMoniker": "BE\\Bitacora.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\campo\\SistemaRiego\\BE\\Bitacora.cs",
+              "RelativeToolTip": "BE\\Bitacora.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:47:15.82Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

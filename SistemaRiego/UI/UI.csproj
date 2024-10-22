@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF8EF4E6-01EB-4B01-AC6C-4868C10B7AB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analisis de equipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analisis de equipo.Designer.cs">
+      <DependentUpon>Analisis de equipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analista de campo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analista de campo.Designer.cs">
+      <DependentUpon>Analista de campo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuditoriaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuditoriaUsuario.Designer.cs">
+      <DependentUpon>AuditoriaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bitacora.Designer.cs">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CargarFormulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CargarFormulario.Designer.cs">
+      <DependentUpon>CargarFormulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComponentesEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComponentesEquipo.Designer.cs">
+      <DependentUpon>ComponentesEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreacionUsuarioCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreacionUsuarioCliente.Designer.cs">
+      <DependentUpon>CreacionUsuarioCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearFormulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearFormulario.Designer.cs">
+      <DependentUpon>CrearFormulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearIdioma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearIdioma.Designer.cs">
+      <DependentUpon>CrearIdioma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crearUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crearUsuario.Designer.cs">
+      <DependentUpon>crearUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FechasIntalador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FechasIntalador.Designer.cs">
+      <DependentUpon>FechasIntalador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPatentesFamilias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatentesFamilias.Designer.cs">
+      <DependentUpon>frmPatentesFamilias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instalador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instalador.Designer.cs">
+      <DependentUpon>Instalador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarUsuario.Designer.cs">
+      <DependentUpon>ModificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PagosFormulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagosFormulario.Designer.cs">
+      <DependentUpon>PagosFormulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedido.Designer.cs">
+      <DependentUpon>Pedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PedidoCreacionUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PedidoCreacionUsuario.Designer.cs">
+      <DependentUpon>PedidoCreacionUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PestañaFabricacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PestañaFabricacion.Designer.cs">
+      <DependentUpon>PestañaFabricacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VendedorFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VendedorFecha.Designer.cs">
+      <DependentUpon>VendedorFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta.Designer.cs">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViabilidadCampo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViabilidadCampo.Designer.cs">
+      <DependentUpon>ViabilidadCampo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analisis de equipo.resx">
+      <DependentUpon>Analisis de equipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analista de campo.resx">
+      <DependentUpon>Analista de campo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditoriaUsuario.resx">
+      <DependentUpon>AuditoriaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bitacora.resx">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CargarFormulario.resx">
+      <DependentUpon>CargarFormulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComponentesEquipo.resx">
+      <DependentUpon>ComponentesEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreacionUsuarioCliente.resx">
+      <DependentUpon>CreacionUsuarioCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearFormulario.resx">
+      <DependentUpon>CrearFormulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearIdioma.resx">
+      <DependentUpon>CrearIdioma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crearUsuario.resx">
+      <DependentUpon>crearUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FechasIntalador.resx">
+      <DependentUpon>FechasIntalador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPatentesFamilias.resx">
+      <DependentUpon>frmPatentesFamilias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instalador.resx">
+      <DependentUpon>Instalador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarUsuario.resx">
+      <DependentUpon>ModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagosFormulario.resx">
+      <DependentUpon>PagosFormulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedido.resx">
+      <DependentUpon>Pedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PedidoCreacionUsuario.resx">
+      <DependentUpon>PedidoCreacionUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PestañaFabricacion.resx">
+      <DependentUpon>PestañaFabricacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="VendedorFecha.resx">
+      <DependentUpon>VendedorFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta.resx">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViabilidadCampo.resx">
+      <DependentUpon>ViabilidadCampo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{1b3aed03-a715-4e9f-a24c-ee0e113ae093}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{2692d871-bcc9-4704-9353-48c8f8e96a63}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seguridad\Seguridad.csproj">
+      <Project>{2456c48e-dad0-44c9-8293-175b6a978915}</Project>
+      <Name>Seguridad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
