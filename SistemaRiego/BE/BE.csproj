@@ -46,12 +46,15 @@
     <Compile Include="Componente.cs" />
     <Compile Include="Cultivo.cs" />
     <Compile Include="DispositivoAgua.cs" />
+    <Compile Include="Equipo.cs" />
     <Compile Include="Familia.cs" />
     <Compile Include="FechaInstalacion.cs" />
     <Compile Include="Formulario.cs" />
     <Compile Include="ItemIdioma.cs" />
     <Compile Include="ItemIdiomaNuevoDisplay.cs" />
     <Compile Include="LenguajeMenu.cs" />
+    <Compile Include="MapperCarritoCompra.cs" />
+    <Compile Include="MapperMaterialesRequeridos.cs" />
     <Compile Include="Materiales.cs" />
     <Compile Include="Patente.cs" />
     <Compile Include="PedidoCreacion.cs" />

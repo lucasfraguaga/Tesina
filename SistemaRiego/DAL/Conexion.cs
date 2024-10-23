@@ -661,13 +661,14 @@ namespace DAL
                     string descripcion = reader.IsDBNull(1) ? "Sin descripción" : reader.GetString(1); // Columna descripcion
                     string nombre = reader.IsDBNull(2) ? "Sin nombre" : reader.GetString(2); // Columna tipo
                     double precio = reader.GetDouble(3); // Columna tipo
+                    int stock   = reader.GetInt32(4);
 
                     Sensor sensor = new Sensor();
                     sensor.precio = (float)precio;
                     sensor.nombre = nombre;
                     sensor.descipcion = descripcion;
                     sensor.id = id;
-
+                    sensor.stock = stock;
 
                     list.Add(sensor);
                 }
@@ -695,13 +696,14 @@ namespace DAL
                     string descripcion = reader.IsDBNull(1) ? "Sin descripción" : reader.GetString(1); // Columna descripcion
                     string nombre = reader.IsDBNull(2) ? "Sin nombre" : reader.GetString(2); // Columna tipo
                     double precio = reader.IsDBNull(3) ? 0 : reader.GetDouble(3); // Columna tipo
+                    int stock = reader.GetInt32(4);
 
                     DispositivoAgua agua = new DispositivoAgua();
                     agua.precio = (float)precio;
                     agua.nombre = nombre;
                     agua.descripcion = descripcion;
                     agua.id = id;
-
+                    agua.stock = stock;
 
                     list.Add(agua);
                 }
@@ -1480,6 +1482,310 @@ namespace DAL
                 cmd.Parameters.Add(new SqlParameter("id_usuario", usu.Id));
                 cmd.Parameters.Add(new SqlParameter("nuevo_nombre", usu.Nombre));
                 cmd.Parameters.Add(new SqlParameter("nueva_contrasena", usu.Contrasena));
+
+                cmd.ExecuteScalar();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public List<Equipo> ObtenerTodosLosEquipos()
+        {
+            string connectionString = GetConnectionString();
+            using (SqlConnection cnn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("ObtenerTodoElEquipo", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cnn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                List<Equipo> list = new List<Equipo>();
+
+                while (reader.Read())
+                {
+                    int id = reader.GetInt32(0); // Columna id
+                    string descripcion = reader.IsDBNull(1) ? "Sin descripción" : reader.GetString(1); // Columna descripcion
+                    int stock = reader.GetInt32(2);
+
+                    Equipo equipo = new Equipo();
+                    equipo.stock = stock;
+                    equipo.id = id;
+                    equipo.descripcion = descripcion;
+
+                    list.Add(equipo);
+                }
+
+                reader.Close();
+                return list;
+            }
+        }
+        public int CrearPedidoCompra(float precio,string estado)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("CrearPedidoCompra");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+
+                cmd.Parameters.Add(new SqlParameter("precio", precio));
+                cmd.Parameters.Add(new SqlParameter("estado", estado));
+
+                var idParameter = new SqlParameter("@nuevoId", System.Data.SqlDbType.Int)
+                {
+                    Direction = System.Data.ParameterDirection.Output
+                };
+                cmd.Parameters.Add(idParameter);
+
+                cmd.ExecuteNonQuery(); 
+
+                return (int)idParameter.Value;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public int CrearPedidoSensor(int idPedido, int idSensor, int cantidad, float precio)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("CrearPedidoSensor");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+
+                cmd.Parameters.Add(new SqlParameter("idPedidoCompra", idPedido));
+                cmd.Parameters.Add(new SqlParameter("idSensor", idSensor));
+                cmd.Parameters.Add(new SqlParameter("cantidad", cantidad));
+                cmd.Parameters.Add(new SqlParameter("precio", precio));
+
+                var idParameter = new SqlParameter("@nuevoId", System.Data.SqlDbType.Int)
+                {
+                    Direction = System.Data.ParameterDirection.Output
+                };
+                cmd.Parameters.Add(idParameter);
+
+                cmd.ExecuteNonQuery();
+
+                return (int)idParameter.Value;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public int CrearPedidoEquipo(int idPedido, int idEquipo, int cantidad, float precio)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("CrearPedidoEquipo");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+
+                cmd.Parameters.Add(new SqlParameter("idPedidoCompra", idPedido));
+                cmd.Parameters.Add(new SqlParameter("idEquipo", idEquipo));
+                cmd.Parameters.Add(new SqlParameter("cantidad", cantidad));
+                cmd.Parameters.Add(new SqlParameter("precio", precio));
+
+                var idParameter = new SqlParameter("@nuevoId", System.Data.SqlDbType.Int)
+                {
+                    Direction = System.Data.ParameterDirection.Output
+                };
+                cmd.Parameters.Add(idParameter);
+
+                cmd.ExecuteNonQuery();
+
+                return (int)idParameter.Value;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public int CrearPedidoDispositivoAgua(int idPedido, int idDispositivoAgua, int cantidad, float precio)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("CrearPedidoDispositivoAgua");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+
+                cmd.Parameters.Add(new SqlParameter("idPedidoCompra", idPedido));
+                cmd.Parameters.Add(new SqlParameter("idDispositivoAgua", idDispositivoAgua));
+                cmd.Parameters.Add(new SqlParameter("cantidad", cantidad));
+                cmd.Parameters.Add(new SqlParameter("precio", precio));
+
+                var idParameter = new SqlParameter("@nuevoId", System.Data.SqlDbType.Int)
+                {
+                    Direction = System.Data.ParameterDirection.Output
+                };
+                cmd.Parameters.Add(idParameter);
+
+                cmd.ExecuteNonQuery();
+
+                return (int)idParameter.Value;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public List<MapperCarritoCompra> ObtenerTodosLosPedidosCompra()
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("ObtenerTodosLosPedidosCompra");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+
+                List<MapperCarritoCompra> list = new List<MapperCarritoCompra>();
+
+                var reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    MapperCarritoCompra carrito = new MapperCarritoCompra();
+                    carrito.idPedido = reader.GetInt32(0);
+                    carrito.precio = (float)(reader.IsDBNull(1) ? 0 : reader.GetDouble(1));
+                    carrito.estado = reader.GetString(2);
+                    list.Add(carrito);
+                }
+                reader.Close();
+                cnn.Close();
+                return list;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public List<MapperCarritoCompra> ObtenerProductosPorIdPedido(int id)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("ObtenerProductosPorIdPedido");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.Add(new SqlParameter("idPedido", id));
+
+                List<MapperCarritoCompra> list = new List<MapperCarritoCompra>();
+
+                var reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    MapperCarritoCompra carrito = new MapperCarritoCompra();
+                    carrito.estado = reader.GetString(0);
+                    carrito.idProducto = reader.GetInt32(2);
+                    carrito.cantidad = reader.GetInt32(3);
+                    carrito.precio = (float)(reader.IsDBNull(4) ? 0 : reader.GetDouble(4));
+                    carrito.idPedido = id;
+                    list.Add(carrito);
+                }
+                reader.Close();
+                cnn.Close();
+                return list;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public void AjustarStockSensor(int id, int cantidad, int operacion)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("AjustarStockSensor");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                cmd.Parameters.Add(new SqlParameter("Id", id));
+                cmd.Parameters.Add(new SqlParameter("Cantidad", cantidad));
+                cmd.Parameters.Add(new SqlParameter("Aumentar", operacion));
+
+
+                cmd.ExecuteScalar();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public void AjustarStockDispositivoAgua(int id, int cantidad, int operacion)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("AjustarStockDispositivoAgua");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                cmd.Parameters.Add(new SqlParameter("Id", id));
+                cmd.Parameters.Add(new SqlParameter("Cantidad", cantidad));
+                cmd.Parameters.Add(new SqlParameter("Aumentar", operacion));
+
+
+                cmd.ExecuteScalar();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public void AjustarStockEquipo(int id, int cantidad, int operacion)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("AjustarStockEquipo");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                cmd.Parameters.Add(new SqlParameter("Id", id));
+                cmd.Parameters.Add(new SqlParameter("Cantidad", cantidad));
+                cmd.Parameters.Add(new SqlParameter("Aumentar", operacion));
+
+
+                cmd.ExecuteScalar();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public void CambiarEstadoPedido(int id, string estado)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("CambiarEstadoPedido");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                cmd.Parameters.Add(new SqlParameter("Id", id));
+                cmd.Parameters.Add(new SqlParameter("NuevoEstado", estado));
+
 
                 cmd.ExecuteScalar();
             }

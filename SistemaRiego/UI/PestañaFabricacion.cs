@@ -122,6 +122,23 @@ namespace UI
 
         private void button2_Click(object sender, EventArgs e)
         {
+            var listaDeMateriales = dataGridView2.DataSource as List<Materiales> ?? new List<Materiales>();
+            foreach (var material in listaDeMateriales)
+            {
+                conexion.AjustarStockEquipo(1, material.cantEquipos, 0);
+            }
+            var listaSensores = dataGridView3.DataSource as List<Sensor> ?? new List<Sensor>();
+            foreach (var sensores in listaSensores)
+            {
+                conexion.AjustarStockSensor(sensores.id, sensores.cantidad, 0);
+            }
+            var listaDispositivoAgua = dataGridView4.DataSource as List<DispositivoAgua> ?? new List<DispositivoAgua>();
+            foreach (var agua in listaDispositivoAgua)
+            {
+                conexion.AjustarStockDispositivoAgua(agua.id, agua.cantidad, 0);
+            }
+
+
             gestorFormularios.CargarEstadoInstalacion(formulario, "terminado");
             formulario.estadoFrabricacion = "terminado";
             List<Formulario> list = new List<Formulario>();

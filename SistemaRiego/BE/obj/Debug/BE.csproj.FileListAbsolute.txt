@@ -4,3 +4,9 @@ C:\Users\lucas\Desktop\campo\SistemaRiego\BE\obj\Debug\BE.csproj.AssemblyReferen
 C:\Users\lucas\Desktop\campo\SistemaRiego\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
 C:\Users\lucas\Desktop\campo\SistemaRiego\BE\obj\Debug\BE.dll
 C:\Users\lucas\Desktop\campo\SistemaRiego\BE\obj\Debug\BE.pdb
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\BE\bin\Debug\BE.dll
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\BE\bin\Debug\BE.pdb
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\BE\obj\Debug\BE.csproj.AssemblyReference.cache
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\BE\obj\Debug\BE.dll
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\BE\obj\Debug\BE.pdb

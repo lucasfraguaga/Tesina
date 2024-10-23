@@ -75,5 +75,29 @@ namespace BLL
         {
             conexion.cambiarUsuarioYContraseña(usu);
         }
+        public List<MapperCarritoCompra> ObtenerTodosLosPedidosCompra()
+        {
+            return conexion.ObtenerTodosLosPedidosCompra();
+        }
+        public List<MapperCarritoCompra> ObtenerProductosPorIdPedido(int id)
+        {
+            return conexion.ObtenerProductosPorIdPedido(id);
+        }
+        public void AjustarStockSensor(int id, int cantidad, int operacion)
+        {
+            conexion.AjustarStockSensor(id,cantidad,operacion);
+        }
+        public void AjustarStockDispositivoAgua(int id, int cantidad, int operacion)
+        {
+            conexion.AjustarStockDispositivoAgua(id, cantidad, operacion);
+        }
+        public void AjustarStockEquipo(int id, int cantidad, int operacion)
+        {
+            conexion.AjustarStockEquipo(id, cantidad, operacion);
+        }
+        public void CambiarEstadoPedido(int id, string estado)
+        {
+            conexion.CambiarEstadoPedido(id, estado);
+        }
     }
 }

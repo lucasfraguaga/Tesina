@@ -11,3 +11,16 @@ C:\Users\lucas\Desktop\campo\SistemaRiego\DAL\obj\Debug\DAL.dll
 C:\Users\lucas\Desktop\campo\SistemaRiego\DAL\obj\Debug\DAL.pdb
 C:\Users\lucas\Desktop\campo\SistemaRiego\DAL\bin\Debug\BCrypt.Net.dll
 C:\Users\lucas\Desktop\campo\SistemaRiego\DAL\bin\Debug\BCrypt.Net.xml
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\bin\Debug\DAL.dll
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\bin\Debug\DAL.pdb
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\bin\Debug\BE.dll
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\bin\Debug\Seguridad.dll
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\bin\Debug\BCrypt.Net.dll
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\bin\Debug\BE.pdb
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\bin\Debug\Seguridad.pdb
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\bin\Debug\BCrypt.Net.xml
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\obj\Debug\DAL.dll
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\DAL\obj\Debug\DAL.pdb

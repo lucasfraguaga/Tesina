@@ -147,5 +147,19 @@ namespace UI
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            AnalisisStock frm = new AnalisisStock(this);
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            PedidosPendientes frm = new PedidosPendientes(this);
+            frm.Show();
+            this.Hide();
+        }
     }
 }

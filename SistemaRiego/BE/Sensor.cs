@@ -48,8 +48,17 @@ namespace BE
 			set { Precio = value; }
 		}
 
+		private int Stock;
 
-        public override string ToString()
+		public int stock
+		{
+			get { return Stock; }
+			set { Stock = value; }
+		}
+
+
+
+		public override string ToString()
         {
             return $"{id} ({nombre})"; // Muestra la descripción y el tipo
         }

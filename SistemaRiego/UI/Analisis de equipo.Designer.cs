@@ -38,15 +38,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button4 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(16, 204);
+            this.button2.Location = new System.Drawing.Point(16, 248);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(206, 60);
+            this.button2.Size = new System.Drawing.Size(206, 41);
             this.button2.TabIndex = 1;
             this.button2.Text = "Analizar farbricacion";
             this.button2.UseVisualStyleBackColor = true;
@@ -74,9 +76,9 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(16, 97);
+            this.button3.Location = new System.Drawing.Point(16, 64);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(206, 46);
+            this.button3.Size = new System.Drawing.Size(206, 38);
             this.button3.TabIndex = 13;
             this.button3.Text = "Desconectarse";
             this.button3.UseVisualStyleBackColor = true;
@@ -130,19 +132,41 @@
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(560, 255);
+            this.dataGridView1.Size = new System.Drawing.Size(560, 280);
             this.dataGridView1.TabIndex = 16;
             // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(18, 149);
+            this.button4.Location = new System.Drawing.Point(16, 108);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(204, 49);
+            this.button4.Size = new System.Drawing.Size(204, 39);
             this.button4.TabIndex = 17;
             this.button4.Text = "Analizar materiales de formulario";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(16, 153);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(206, 40);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Analizar stock";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(16, 199);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(206, 43);
+            this.button5.TabIndex = 19;
+            this.button5.Text = "Ver pedidos compra";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Analisis_de_equipo
             // 
@@ -150,6 +174,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label5);
@@ -180,5 +206,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button5;
     }
 }

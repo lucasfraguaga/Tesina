@@ -58,6 +58,12 @@
     <Compile Include="Analisis de equipo.Designer.cs">
       <DependentUpon>Analisis de equipo.cs</DependentUpon>
     </Compile>
+    <Compile Include="AnalisisStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalisisStock.Designer.cs">
+      <DependentUpon>AnalisisStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Analista de campo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,11 +166,23 @@
     <Compile Include="Pedido.Designer.cs">
       <DependentUpon>Pedido.cs</DependentUpon>
     </Compile>
+    <Compile Include="PedidoCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PedidoCompra.Designer.cs">
+      <DependentUpon>PedidoCompra.cs</DependentUpon>
+    </Compile>
     <Compile Include="PedidoCreacionUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PedidoCreacionUsuario.Designer.cs">
       <DependentUpon>PedidoCreacionUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PedidosPendientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PedidosPendientes.Designer.cs">
+      <DependentUpon>PedidosPendientes.cs</DependentUpon>
     </Compile>
     <Compile Include="PestañaFabricacion.cs">
       <SubType>Form</SubType>
@@ -197,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Analisis de equipo.resx">
       <DependentUpon>Analisis de equipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalisisStock.resx">
+      <DependentUpon>AnalisisStock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Analista de campo.resx">
       <DependentUpon>Analista de campo.cs</DependentUpon>
@@ -249,8 +270,14 @@
     <EmbeddedResource Include="Pedido.resx">
       <DependentUpon>Pedido.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PedidoCompra.resx">
+      <DependentUpon>PedidoCompra.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PedidoCreacionUsuario.resx">
       <DependentUpon>PedidoCreacionUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PedidosPendientes.resx">
+      <DependentUpon>PedidosPendientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PestañaFabricacion.resx">
       <DependentUpon>PestañaFabricacion.cs</DependentUpon>
@@ -273,6 +300,11 @@
     <EmbeddedResource Include="ViabilidadCampo.resx">
       <DependentUpon>ViabilidadCampo.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\BE.DispositivoAgua.datasource" />
+    <None Include="Properties\DataSources\BE.Equipo.datasource" />
+    <None Include="Properties\DataSources\BE.MapperCarritoCompra.datasource" />
+    <None Include="Properties\DataSources\BE.MapperMaterialesRequeridos.datasource" />
+    <None Include="Properties\DataSources\BE.Sensor.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
