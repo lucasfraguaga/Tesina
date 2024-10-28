@@ -219,5 +219,17 @@ namespace UI
             frm.Show();
             this.Hide();
         }
+
+        private void gestionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void anlisisContactoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AnalisisContacto frm = new AnalisisContacto(this);
+            frm.Show();
+            this.Hide();
+        }
     }
 }

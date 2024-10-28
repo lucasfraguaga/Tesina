@@ -99,5 +99,25 @@ namespace BLL
         {
             conexion.CambiarEstadoPedido(id, estado);
         }
+        public List<MapperMensaje> ObtenerMensajesPorCliente(int id)
+        {
+            return conexion.ObtenerMensajesPorCliente(id);
+        }
+        public void InsertarTareaSinAdministrador(int idUsuario, string tema, string descripcion, string estado)
+        {
+            conexion.InsertarTareaSinAdministrador(idUsuario, tema, descripcion, estado);
+        }
+        public List<MapperTarea> ObtenerTareasPorUsuario(int id)
+        {
+            return conexion.ObtenerTareasPorUsuario(id);
+        }
+        public List<MapperTarea> ObtenerTodasLasTareas()
+        {
+            return conexion.ObtenerTodasLasTareas();
+        }
+        public void ActualizarEstadoTarea(int id, string estado, int idAdministrador)
+        {
+            conexion.ActualizarEstadoTarea(id,estado,idAdministrador);
+        }
     }
 }

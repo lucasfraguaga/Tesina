@@ -105,7 +105,7 @@ namespace UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Cliente cliente = new Cliente();
+            BE.Cliente cliente = new BE.Cliente();
             cliente.nombre = textBox1.Text;
             cliente.apellido = textBox2.Text;
             cliente.dni = (int)numericUpDown1.Value;

@@ -1794,5 +1794,151 @@ namespace DAL
                 throw e;
             }
         }
+        public List<MapperMensaje> ObtenerMensajesPorCliente(int id)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("ObtenerRegistrosPorCliente");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.Add(new SqlParameter("id_usuario", id));
+
+                List<MapperMensaje> list = new List<MapperMensaje>();
+
+                var reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    MapperMensaje mensaje = new MapperMensaje();
+                    mensaje.id = reader.GetInt32(0);
+                    mensaje.idUsuario = reader.GetInt32(1);
+                    mensaje.idComponente = reader.GetInt32(2);
+                    mensaje.tipo = reader.GetString(3);
+                    mensaje.mensaje = reader.GetString(4);
+                    mensaje.fecha = reader.IsDBNull(5) ? DateTime.Now : reader.GetDateTime(5); // Columna descripcion
+                    list.Add(mensaje);
+                }
+                reader.Close();
+                cnn.Close();
+                return list;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public void InsertarTareaSinAdministrador(int idUsuario, string tema, string descripcion, string estado)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("InsertarTareaSinAdministrador");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                cmd.Parameters.Add(new SqlParameter("idUsuario", idUsuario));
+                cmd.Parameters.Add(new SqlParameter("tema", tema));
+                cmd.Parameters.Add(new SqlParameter("descripcion", descripcion));
+                cmd.Parameters.Add(new SqlParameter("estado", estado));
+
+
+                cmd.ExecuteScalar();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public List<MapperTarea> ObtenerTareasPorUsuario(int id)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("ObtenerTareasPorUsuario");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.Add(new SqlParameter("idUsuario", id));
+
+                List<MapperTarea> list = new List<MapperTarea>();
+
+                var reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    MapperTarea mensaje = new MapperTarea();
+                    mensaje.id = reader.GetInt32(0);
+                    mensaje.idUsuario = reader.GetInt32(1);
+                    mensaje.idAdministrador = reader.IsDBNull(2) ? 0 : reader.GetInt32(2); ;
+                    mensaje.tema = reader.GetString(3);
+                    mensaje.descripcion = reader.GetString(4);
+                    mensaje.estado = reader.GetString(5);
+                    list.Add(mensaje);
+                }
+                reader.Close();
+                cnn.Close();
+                return list;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public List<MapperTarea> ObtenerTodasLasTareas()
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("ObtenerTodasLasTareas");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                List<MapperTarea> list = new List<MapperTarea>();
+
+                var reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    MapperTarea mensaje = new MapperTarea();
+                    mensaje.id = reader.GetInt32(0);
+                    mensaje.idUsuario = reader.GetInt32(1);
+                    mensaje.idAdministrador = reader.IsDBNull(2) ? 0 : reader.GetInt32(2); ;
+                    mensaje.tema = reader.GetString(3);
+                    mensaje.descripcion = reader.GetString(4);
+                    mensaje.estado = reader.GetString(5);
+                    list.Add(mensaje);
+                }
+                reader.Close();
+                cnn.Close();
+                return list;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public void ActualizarEstadoTarea(int id, string estado, int idAdministrador)
+        {
+            try
+            {
+                var cnn = new SqlConnection(GetConnectionString());
+                cnn.Open();
+                var cmd = new SqlCommand("ActualizarEstadoTarea");
+                cmd.Connection = cnn;
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                cmd.Parameters.Add(new SqlParameter("id", id));              
+                cmd.Parameters.Add(new SqlParameter("nuevoEstado", estado));
+                cmd.Parameters.Add(new SqlParameter("idAdministrador", idAdministrador));
+
+
+                cmd.ExecuteScalar();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
     }
 }

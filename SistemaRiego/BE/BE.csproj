@@ -55,6 +55,8 @@
     <Compile Include="LenguajeMenu.cs" />
     <Compile Include="MapperCarritoCompra.cs" />
     <Compile Include="MapperMaterialesRequeridos.cs" />
+    <Compile Include="MapperMensaje.cs" />
+    <Compile Include="MapperTarea.cs" />
     <Compile Include="Materiales.cs" />
     <Compile Include="Patente.cs" />
     <Compile Include="PedidoCreacion.cs" />

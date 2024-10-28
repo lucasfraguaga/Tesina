@@ -58,6 +58,12 @@
     <Compile Include="Analisis de equipo.Designer.cs">
       <DependentUpon>Analisis de equipo.cs</DependentUpon>
     </Compile>
+    <Compile Include="AnalisisContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalisisContacto.Designer.cs">
+      <DependentUpon>AnalisisContacto.cs</DependentUpon>
+    </Compile>
     <Compile Include="AnalisisStock.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,11 +94,23 @@
     <Compile Include="CargarFormulario.Designer.cs">
       <DependentUpon>CargarFormulario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="ComponentesEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ComponentesEquipo.Designer.cs">
       <DependentUpon>ComponentesEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactoAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactoAdministrador.Designer.cs">
+      <DependentUpon>ContactoAdministrador.cs</DependentUpon>
     </Compile>
     <Compile Include="CreacionUsuarioCliente.cs">
       <SubType>Form</SubType>
@@ -216,6 +234,9 @@
     <EmbeddedResource Include="Analisis de equipo.resx">
       <DependentUpon>Analisis de equipo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AnalisisContacto.resx">
+      <DependentUpon>AnalisisContacto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AnalisisStock.resx">
       <DependentUpon>AnalisisStock.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,8 +252,14 @@
     <EmbeddedResource Include="CargarFormulario.resx">
       <DependentUpon>CargarFormulario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ComponentesEquipo.resx">
       <DependentUpon>ComponentesEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactoAdministrador.resx">
+      <DependentUpon>ContactoAdministrador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreacionUsuarioCliente.resx">
       <DependentUpon>CreacionUsuarioCliente.cs</DependentUpon>
@@ -304,6 +331,7 @@
     <None Include="Properties\DataSources\BE.Equipo.datasource" />
     <None Include="Properties\DataSources\BE.MapperCarritoCompra.datasource" />
     <None Include="Properties\DataSources\BE.MapperMaterialesRequeridos.datasource" />
+    <None Include="Properties\DataSources\BE.MapperTarea.datasource" />
     <None Include="Properties\DataSources\BE.Sensor.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

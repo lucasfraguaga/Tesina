@@ -78,9 +78,14 @@ namespace UI
                             form8.Show();
                             this.Hide();
                             break;
-                        default:
-                            MessageBox.Show("Roll no valido");
+                        case 8:
+                            Cliente form9 = new Cliente(this);
+                            form9.Show();
+                            this.Hide();
                             break;
+                        default:
+                                MessageBox.Show("Roll no valido");
+                                break;
                     }
                
             }

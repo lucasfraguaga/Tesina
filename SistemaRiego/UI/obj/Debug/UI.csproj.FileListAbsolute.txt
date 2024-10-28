@@ -89,3 +89,6 @@ C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\UI\bin\Debug\BCrypt.Net.xml
 C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\UI\obj\Debug\UI.csproj.Up2Date
 C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\UI\obj\Debug\UI.PedidoCompra.resources
 C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\UI\obj\Debug\UI.PedidosPendientes.resources
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\UI\obj\Debug\UI.Cliente.resources
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\UI\obj\Debug\UI.ContactoAdministrador.resources
+C:\Users\lucas\Desktop\campo\Tesina\SistemaRiego\UI\obj\Debug\UI.AnalisisContacto.resources

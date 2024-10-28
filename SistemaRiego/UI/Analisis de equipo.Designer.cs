@@ -46,7 +46,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(16, 248);
+            this.button2.Location = new System.Drawing.Point(16, 259);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(206, 41);
             this.button2.TabIndex = 1;
@@ -132,7 +132,7 @@
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(560, 280);
+            this.dataGridView1.Size = new System.Drawing.Size(560, 291);
             this.dataGridView1.TabIndex = 16;
             // 
             // button4
@@ -140,7 +140,7 @@
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(16, 108);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(204, 39);
+            this.button4.Size = new System.Drawing.Size(204, 50);
             this.button4.TabIndex = 17;
             this.button4.Text = "Analizar materiales de formulario";
             this.button4.UseVisualStyleBackColor = true;
@@ -149,7 +149,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(16, 153);
+            this.button1.Location = new System.Drawing.Point(16, 164);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(206, 40);
             this.button1.TabIndex = 18;
@@ -160,7 +160,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(16, 199);
+            this.button5.Location = new System.Drawing.Point(16, 210);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(206, 43);
             this.button5.TabIndex = 19;
